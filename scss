@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Diseño de la barra lateral */
+aside {
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+/* Carrito de compras */
+aside h2 {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+}
+
+aside table {
+    width: 100%;
+    margin-top: 10px;
+    border-spacing: 0;
+}
+
+aside td {
+    padding: 5px;
+}
+
+aside button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Diseño responsivo */
+@media (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        gap: 10px;
+    }
+}
+
+/* Estilos del menú */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #555;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
